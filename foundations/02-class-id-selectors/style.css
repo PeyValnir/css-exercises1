@@ -1,0 +1,17 @@
+.backoddcolor {
+background-color: #FF7373;
+}
+.backoddcolor.fatty {
+    font-size: 24px;
+}
+
+#onlyid {
+    color:#0050DA; 
+    font-size: 36px;
+}
+
+#sndid {
+    background-color: rgb(117, 239, 117);
+    font-weight: 700;
+
+}
