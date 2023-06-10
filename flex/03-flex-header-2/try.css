@@ -1,0 +1,47 @@
+.family {
+    display: flex;
+    background-color: black;
+    padding: 10px;
+    justify-content: space-evenly;
+   
+
+}
+
+.fam {
+    padding: 10px;
+   
+}
+.grandad {
+background-color: blue;
+flex-grow: ;
+
+}
+
+.father {
+background-color: red;
+flex-grow: ;
+
+
+}
+
+.son {
+background-color: yellow;
+
+
+}
+
+ul {
+display: flex;
+}
+
+li {
+    color: white;
+    list-style: none;
+
+}
+
+.right {
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+}
