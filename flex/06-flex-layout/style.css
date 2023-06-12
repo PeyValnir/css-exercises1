@@ -5,10 +5,14 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 img {
   width: 600px;
+  padding: 10px;
 }
 
 button {
@@ -16,6 +20,9 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 15px;
+  margin: 10px;
+  
 }
 
 input {
@@ -24,4 +31,86 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+
+}
+
+ul {
+  list-style: none; 
+ 
+ }
+a {
+  text-decoration: none;
+}
+
+/* header 
+
+.header {
+  display: flex;
+}
+
+.header ul  {
+  display: flex;
+  
+}
+
+.header .right-links {
+  display: flex;
+  margin-left: auto;
+  gap: 10px;
+  padding-right: 10px;
+
+}
+
+.header .left-links {
+  gap: 10px;
+  padding-left: 10px;
+}
+
+
+/* content */ 
+
+.content {
+   text-align: center;
+}
+
+
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+} 
+ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 16px
+}
+
+/* footer 
+
+.footer {
+  display: flex;
+  background-color: #eee;
+}
+
+.footer ul  {
+  display: flex;
+  list-style: none; 
+  
+}
+
+.footer .right-links {
+  display: flex;
+  margin-left: auto;
+  gap: 10px;
+  padding-right: 10px;
+
+}
+
+.footer .left-links {
+  gap: 10px;
+  padding-left: 10px;
+  
 }
